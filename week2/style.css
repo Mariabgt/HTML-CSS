@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  padding:0;
+  background:url(https://ak9.picdn.net/shutterstock/videos/2714639/thumb/1.jpg);
+  background-size: cover;
+}
+section{
+  background:url(https://ak9.picdn.net/shutterstock/videos/2714639/thumb/1.jpg);
+}
+main{
+  width: 100%;
+  margin: auto;
+}
+h1{
+  scroll-margin-left: 10px;
+  letter-spacing: 10px;
+  color: black;
+  font-family: Franklin Gothic Medium;
+  font-size: 3em;
+  text-shadow: 2px 3px red;
+}
+h2{
+  color: black;
+  margin-left: 10px;
+  font-family: 'Courier New', Courier, monospace;
+   font-size :2em;
+   text-align: center;
+   text-transform: uppercase;
+   text-shadow: 2px 3px 2px red;
+}
+h3{
+  color: black;
+  font-family: 'Courier New', Courier, monospace
+  font-size: 17px;
+  text-transform: capitalize;
+  text-shadow: 2px 3px 2px red;
+}
+p{
+  color: black;
+  font-family: Nirmala UI;
+  font-size:16px ;
+  text-transform: capitalize;
+}
+#grid-flex{
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-item{
+  width: 24%;
+  margin: 2px;
+  text-align: center;
+  border:solid 1px #ddd;
+}
+img{
+  width:100%;
+}
+.grid-item:nth-of-type(1){
+  width: 48%;
+}
+.grid-item:nth-of-type(1) img{
+  width: 50%;
+}
+@media screen and (max-width:1000px){
+  h1{
+     margin-left: 10px;
+     text-align: center;
+     letter-spacing: 10px;
+     color: black;
+     font-family: Franklin Gothic Medium;
+     font-size: 2.5em;
+     text-shadow: 2px 3px black ;
+  }
+  h2{
+     color:black;
+     margin-left: 10px;
+     font-family: Malgun Gothic;
+      font-size :1.5em;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 2px 1px 2px red;
+  }
+  h3{
+     color:black;
+     font-family: Microsoft PhagsPa;
+     font-size: 16px;
+     text-transform: capitalize;
+  }
+  p{
+     color: black;
+     font-family: Nirmala UI;
+     font-size:13px ;
+     text-transform: none;
+  }
+  .grid-item:nth-of-type(1){
+      width: 48%;
+  }
+  .grid-item:nth-of-type(2){
+      width: 48%;
+  }
+  .grid-item{
+      width: 31.5%;
+      margin:2px 4px;
+  }
+}
+@media screen and (max-width:650px){
+  h1{
+     margin-left: 10px;
+     text-align: center;
+     letter-spacing: 10px;
+     color:black;
+     font-family: Franklin Gothic Medium;
+     font-size: 2em;
+     text-shadow: 2px 3px black ;
+  }
+  h2{
+     color:black;
+     margin-left: 10px;
+     font-family: Malgun Gothic;
+      font-size :1em;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 2px 1px 2px gray;
+  }
+  h3{
+     color:black;
+     font-family: Microsoft PhagsPa;
+     font-size: 15px;
+     text-transform: capitalize;
+  }
+  p{
+     color: black;
+     font-family: Nirmala UI;
+     font-size:12px ;
+     text-transform: capitalize;
+  }
+  .grid-item:nth-of-type(1){
+      width: 100%;
+  }
+   .grid-item:nth-of-type(1) img{
+      width: 100%;
+  }
+  .grid-item{
+      width: 47%;
+      margin: 0.5%;
+  }
+  img{
+      width:100%;
+  }
+}
+
